@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+  <link rel="stylesheet" text="style/css"  href="../unit-4-game/assets/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+  <h1>Dragon Collector!</h1>
+
+    <div class= instructionsBox>
+        <h3>How to Play</h3>
+        <p>You will be given a random number at the start of the game.</p>
+        <p>There are four dragons below. By clicking on a dragon you will add a specific amount of points to your total score.</p>
+
+        <p> You win the game by matching your total score to a random number, you lose the game if your total score goes above that random number.</p>
+
+        <p>The value of each dragon is hidden from you until you click on it.</p>
+
+        <p> Each time the game starts, the values of each dragon will change. Good luck!</p>
+    </div>
+
+    <div>
+      <h1> Target Score</h1>
+        <h2 id= "targetScore">0</h2>
+
+      <h1>Total Score</h1>
+        <h2 id= "totalScore"> 0</h2>
+
+      <h1>Wins</h1>
+        <h2 id= "wins">0</h2>
+
+      <h1>Losses</h1>
+        <h2 id="losses">0</h2>
+
+    </div>
+
+            <!-- <div class="container images">
+                    <div class="row">
+                      <div class="col-sm">
+                        <button type="button" class="dragonImage dragonButton" id="greenDragon" src="assets/images/greenDragon.jpg" alt="green dragon" width=100 height=100>
+                      </div>
+                      <div class="col-sm">
+                            <button type="button" img class="dragonImage dragonButton" id="purpleDragon" src="assets/images/purpleDragon.jpg" alt="purple dragon" width=100 height=100>
+                      </div>
+                      <div class="col-sm">
+                            <button type="button" img class="dragonImage" id="redDragon" src="assets/images/redDragon.jpg" alt = "red dragon" width=100 height=100>
+                        <div class="col-sm">
+                            <button type="button" img class="dragonImage" id="yellowDragon" src="assets/images/yellowDragon.jpg" alt= "yellow dragon" width=100 height=100>
+                        </div>
+                      </div>
+                    </div>
+                  </div> -->
+
+               
+                  <div class="row">
+                    <div class="col-sm">
+                      <img class="dragonImage dragonButton" src="assets/images/greenDragon.jpg" id="green-dragon"  alt="green dragon" width=100 height=100>
+                    </div>
+                    <div class="col-sm">
+                          <img class="dragonImage dragonButton" id="purpleDragon" src="assets/images/purpleDragon.jpg" alt="purple dragon" width=100 height=100>
+                    </div>
+                    <div class="col-sm">
+                          <img class="dragonImage" id="redDragon" src="assets/images/redDragon.jpg" alt = "red dragon" width=100 height=100>
+                      <div class="col-sm">
+                          <img class="dragonImage" id="yellowDragon" src="assets/images/yellowDragon.jpg" alt= "yellow dragon" width=100 height=100>
+                      </div>
+
+
+
+
+
+
+        
+
+
+    </div>
+
+<script src="../unit-4-game/assets/javascript/game.js"></script>
+</body>
+</html>
