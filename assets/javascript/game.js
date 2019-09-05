@@ -22,6 +22,7 @@ function startGame() {
     yellowDragon = randomNumber(1,12)
 
     targetScore = randomNumber(19,120)
+    totalScore = 0
     console.log(redDragon, greenDragon, purpleDragon, yellowDragon, targetScore);
 
     $("#targetScore").html(targetScore)
@@ -77,4 +78,5 @@ function checkWin() {
     })
 
     
+
 

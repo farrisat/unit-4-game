@@ -4,9 +4,9 @@ body {
     text-align:center;
 }
 
-h1 { 
+.pageHeader { 
     background-color: #a054eb;
-    color:burlywood
+    color:burlywood;
 }
 
 .instructionsBox {
@@ -17,8 +17,30 @@ h1 {
 
 }
 
-.images {
-    display: flex;
-   flex-direction:row;
-    flex-flow: row wrap;
+.scoreboard {
+    border: 15px greenyellow;
+    color: lightgreen;
+    text-shadow: 
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+
+    margin-left: 410px;
+    margin-bottom: 10%;
+    
+}
+
+#scoreboardTitle {
+background-color: lightblue;
+width: 770px;
+margin-left: 400px;
+color: lightgreen;
+text-shadow: 
+-1px -1px 0 #000,  
+1px -1px 0 #000,
+-1px 1px 0 #000,
+ 1px 1px 0 #000;
+
+
 }
